@@ -1,0 +1,210 @@
+
+-
+.animate {
+    animation: flop 2s forwards;
+    }
+    @keyframes flop {
+    from{
+    opacity: 0.7;
+    transform: translateY(-2em);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+.container_one{
+    background-image:url(./images/image-hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 70vh;
+
+}
+.container{
+    max-width: 75rem;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    }
+.desktop--getstarted{
+    display: none;
+}
+.crowdfund {
+    position: absolute;
+    left: 2em;
+    margin-top: 3em;
+}
+.hamburger_mobile{
+    position: absolute;
+    right: 2em;
+    margin-top: 3em;
+}
+.mastercraft{
+    background-color:  hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 2%, 83%) ;
+    position: absolute;
+    margin: 0 auto;
+    bottom: -10em;
+    max-width: 75rem;
+    width: 90%;
+    border-radius: 7px;
+    
+}
+.mastercraft_logo{
+    display: block;
+    margin: 0 auto;
+    margin-top: -1em;
+}
+.mastercraft_H2{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.mastercraft_P{
+    color: hsl(0, 0%, 48%);
+    text-align: center;
+    line-height: 1.4em;
+
+}
+.mastercraft_B{
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    background-color: hsl(176, 50%, 47%);
+    border: 1px solid hsl(176, 50%, 47%);
+    font-size: 1rem;
+    border-radius: 4em;
+    height: 3em;
+    width: 13em;
+
+}
+.flow{
+ display: flex;
+ margin: 0 auto;
+ justify-content: space-between;
+ margin-bottom: 2.5em;
+ padding-top: 2em;
+ width: 90%;
+}
+.margin_down{
+    margin-top: 11em;
+    margin-bottom: 4em;
+}
+.backed {
+    background-color:  hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 2%, 83%) ; 
+    margin: 0 auto;
+    max-width: 75rem;
+    width: 90%;
+    border-radius: 7px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.backed_para{
+    color: hsl(0, 0%, 48%);   
+}
+hr{
+    width: 25%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.About{
+    background-color:  hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 2%, 83%) ; 
+    margin: 0 auto;
+    max-width: 75rem;
+    width: 90%;
+    border-radius: 7px;
+    text-align: center;
+}
+.about_H{
+    font-size: 1.1rem;
+    font-weight: 10rem;
+    color: black;
+    text-align: left !important;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+.about_P{
+    color: hsl(0, 0%, 48%);
+    text-align: left; 
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+.bambo_stand{
+    background-color:  hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 2%, 83%) ; 
+    margin: 0 auto;
+    max-width: 75rem;
+    width: 90%;
+    border-radius: 7px;
+    text-align: left; 
+    margin-bottom: 2em;
+}
+.bambo_green{
+    font-size: 1rem;
+    font-weight: 5rem;
+    color:hsl(176, 50%, 47%);
+    text-align: left !important;
+    margin-left: 1em;
+    line-height: .1em ;
+    margin-bottom: 2em;
+}
+.mastercraft_C{
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    background-color: hsl(176, 50%, 47%);
+    border: 1px solid hsl(176, 50%, 47%);
+    font-size: 1rem;
+    border-radius: 4em;
+    height: 2.5em;
+    width: 10em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+.backed_para--C{
+    color: hsl(0, 0%, 48%);
+    font-size: 1rem;
+    text-align: left;
+    
+}
+.black_edition--stand{
+    background-color:  hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 2%, 83%) ; 
+    margin: 0 auto;
+    max-width: 75rem;
+    width: 90%;
+    border-radius: 7px;
+    text-align: left; 
+    margin-bottom: 2em;
+}
+.mohogany_special--edition{
+    background-color:  hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 2%, 83%) ; 
+    margin: 0 auto;
+    max-width: 75rem;
+    width: 90%;
+    border-radius: 7px;
+    text-align: left; 
+    margin-bottom: 2em;
+    opacity: 0.6;
+}
+.mastercraft_D{
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    background-color: hsl(0, 0%, 47%);
+    border: 1px solid hsl(0, 0%, 47%);
+    font-size: 1rem;
+    border-radius: 4em;
+    height: 2.5em;
+    width: 10em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
